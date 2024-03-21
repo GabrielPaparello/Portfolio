@@ -11,7 +11,7 @@ createElement(inputValue);
 
 
 
-function createElement(inputValue){
+function createElement(cantidad){
 
     var num = inputValue ;
         for (let i = 0; i < num; i++) {
