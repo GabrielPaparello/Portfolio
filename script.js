@@ -6,7 +6,7 @@
 // div.innerHTML = "Hello";
 
 // document.body.appendChild(div);
-window.onload = createElement();
+window.onload = createElement(5);
 
 function createElement(cantidad){
 
