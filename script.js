@@ -21,7 +21,7 @@ function createElement(inputValue){
             div.style.background = "red";
             div.style.color = "white";
             div.innerHTML = "Hello";
-            div.classList.add("grid");
+            // div.classList.add("grid");
             // div.appendChild(div);
 
             document.body.appendChild(div);
