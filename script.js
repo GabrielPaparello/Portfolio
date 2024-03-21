@@ -11,3 +11,5 @@ function addElement() {
     // add the newly created element and its content into the web
     const currentDiv = document.getElementById("div1");
     document.body.insertBefore(newDiv, currentDiv);
+
+}
