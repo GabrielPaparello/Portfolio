@@ -6,9 +6,8 @@
 // div.innerHTML = "Hello";
 
 // document.body.appendChild(div);
+var inputValue = window.prompt("numero")
 createElement(inputValue);
-const caja = document.getElementById("caja");
-const inputValue= caja.value;
 
 
 
