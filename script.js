@@ -22,9 +22,9 @@ function createElement(cantidad){
             div.style.color = "white";
             div.innerHTML = "Hello";
             // div.classList.add("grid");
-            // div.appendChild(div);
+            document.getElementById('grid').appendChild(div);
 
-            document.body.appendChild(div);
+            // document.body.appendChild(div);
         
       }
     
