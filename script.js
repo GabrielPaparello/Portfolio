@@ -21,9 +21,11 @@ function createElement(cantidad){
             div.style.background = "red";
             div.style.color = "white";
             div.innerHTML = "Hello";
-
+            div.classList.add("grid");
             document.body.appendChild(div);
         
       }
+    
+    
 
 }
