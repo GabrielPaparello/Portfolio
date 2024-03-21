@@ -6,7 +6,7 @@
 // div.innerHTML = "Hello";
 
 // document.body.appendChild(div);
-window.onload = createElement(5);
+window.onload = createElement(inputValue);
 const caja = document.getElementById("caja");
 const inputValue= caja.value;
 function createElement(cantidad){
