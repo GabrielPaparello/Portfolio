@@ -16,7 +16,6 @@ function createElement(cantidad){
     var num = inputValue ;
         for (let i = 0; i < num; i++) {
             var div = document.createElement("div");
-            div.classList.add("gridItems");
             div.style.width = "100px";
             div.style.height = "100px";
             div.style.background = "red";
