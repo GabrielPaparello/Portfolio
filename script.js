@@ -21,6 +21,7 @@ function createElement(cantidad){
             div.style.background = "red";
             div.style.color = "white";
             div.innerHTML = "Hello";
+            div.classList.add("gridItems");
             document.getElementById('grid').appendChild(div);
 
 
@@ -28,6 +29,6 @@ function createElement(cantidad){
         
       }
     
-    div.classList.add("gridItems");
+    
 
 }
