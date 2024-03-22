@@ -28,6 +28,6 @@ function createElement(cantidad){
         
       }
     
-    div.classList.add("gridItems")
+    div.classList.add("gridItems");
 
 }
