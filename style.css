@@ -8,7 +8,9 @@
 .grid{
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: absolue;
+    top: 50%;
+    border: 1px solid black;
 }
 
 
