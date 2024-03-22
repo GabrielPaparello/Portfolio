@@ -8,11 +8,11 @@
 .grid{
     display: flex;
     flex-wrap: wrap;
-   
+    position: relative;
 }
 
 
 .gridItems{
-    position: relative;
+    position: absolute;
     top:50%
 }
